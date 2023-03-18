@@ -12,9 +12,6 @@
 
 #include "get_next_line.h"
 
-/*
-ft_strlen: returns the length of the string s.
-*/
 size_t	ft_strlen(char *s)
 {
 	size_t	i;
@@ -27,9 +24,6 @@ size_t	ft_strlen(char *s)
 	return (i);
 }
 
-/*
-ft_strchr: returns a pointer to the first occurrence of the character c in the
-*/
 char	*ft_strchr(char *s, int c)
 {
 	int	i;
@@ -48,11 +42,6 @@ char	*ft_strchr(char *s, int c)
 	return (0);
 }
 
-/*
-ft_strjoin: allocates (with malloc(3)) and returns a new string, which is the
-result of the concatenation of ’s1’ and ’s2’. If the allocation fails the
-function returns NULL.
-*/
 char	*ft_strjoin(char *left_str, char *buff)
 {
 	size_t	i;
@@ -81,9 +70,6 @@ char	*ft_strjoin(char *left_str, char *buff)
 	return (str);
 }
 
-/*
-ft_get_line: returns a pointer to the first line of the string s.
-*/
 char	*ft_get_line(char *left_str)
 {
 	int		i;
