@@ -6,7 +6,7 @@
 /*   By: llluy-pu <llluy-pu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/14 11:42:13 by llluy-pu          #+#    #+#             */
-/*   Updated: 2023/02/14 11:44:12 by llluy-pu         ###   ########.fr       */
+/*   Updated: 2023/03/23 15:10:38 by llluy-pu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 
 //-----------------------------------------------------------------------------
 // get_next_line.c
+//-----------------------------------------------------------------------------
 
 /*
 Reads lines from a file descriptor, one line at a time.
@@ -42,6 +43,7 @@ encounters an error while reading.
 char	*ft_read_to_left_str(int fd, char *left_str);
 //-----------------------------------------------------------------------------
 // get_next_line_utils.c
+//-----------------------------------------------------------------------------
 
 /*
 Searches for the first occurrence of a character in a string. The function takes
@@ -77,6 +79,7 @@ char	*ft_get_line(char *left_str);
 
 //-----------------------------------------------------------------------------
 // get_next_line_utils2.c
+//-----------------------------------------------------------------------------
 
 /*
 Returns a new string that contains the remaining text in the input string after
